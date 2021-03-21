@@ -41,14 +41,14 @@
     justify-content: space-between;
 }
 
-.footer__logo {
-    color: var(--accent-blue);
+.footer .logo {
+    color: var(--white);
     display: inline-flex;
-    padding-bottom: 20px;
 }
 
-.footer__logo--accent{
-    color: var(--white);
+.footer .logo--accent {
+    color: var(--accent-blue);
+    padding-bottom: 20px;
 }
 
 .main-contacts__street,
@@ -75,14 +75,13 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
     &:first-child {
-    margin-left: 0px;
+        margin-left: 0px;
     }
 
     &:hover,
     &:focus {
         background-color: var(--accent-blue);
     }
-
 }
 
 .subscribe form {
@@ -104,11 +103,10 @@
     transition-property: border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    
+
     &:focus {
         border-color: var(--accent-blue);
     }
-
 }
 
 .subscribe button {
@@ -138,7 +136,6 @@
     &:focus {
         background-color: var(--accent-blue-active);
     }
-
 }
 
 .subscribe__icon {
